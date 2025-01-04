@@ -3,7 +3,7 @@
   "name": "DimTube",
   "version": "1.0.0",
   "description": "A minimalist YouTube extension that reduces visual stimulation by dimming thumbnails",
-  "permissions": ["activeTab"],
+  "permissions": ["tabs"],
   "host_permissions": ["*://*.youtube.com/*"],
   "content_scripts": [
     {
