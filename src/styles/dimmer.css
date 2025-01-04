@@ -1,0 +1,26 @@
+/* Target YouTube thumbnail containers */
+ytd-thumbnail,
+.ytd-thumbnail,
+.thumb-wrapper {
+  filter: brightness(0.7) saturate(0.8);
+  transition: filter 0.3s ease;
+}
+
+/* Optional hover effect to show original thumbnail */
+ytd-thumbnail:hover,
+.ytd-thumbnail:hover,
+.thumb-wrapper:hover {
+  filter: brightness(1) saturate(1);
+}
+
+/* Reduce the contrast of thumbnail titles */
+#video-title,
+.ytd-video-meta-block {
+  color: #606060 !important;
+}
+
+/* Remove or dim unnecessary elements */
+#thumbnail-overlay-hover-text,
+.ytd-thumbnail-overlay-toggle-button-renderer {
+  opacity: 0.6;
+}
